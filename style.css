@@ -1,0 +1,172 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section + section {
+  margin-top: 50px;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(0, 0, 0, 0.5);
+  background-color: #F5F8FF;
+}
+
+        /* font-family */
+h1, h2, h3, h5, h6 {
+  font-family: "Noto Serif", serif;
+  color:black
+}
+
+h4 {
+  font-family: "Inter", sans-serif;
+  color: #111111;
+}
+
+            /* sont-sizing */
+
+h1 {
+  font-size: 4.0625rem;
+}
+
+h2 {
+  font-size: 3.125rem;
+}
+
+h3{
+  font-size: 2.5rem;
+}
+
+h4 {
+  font-size:1.375;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+           /* font-weight */
+.font-m {
+  font-weight: 500;
+}
+.font-semi {
+  font-weight: 600;
+}
+.font-b {
+  font-weight: 700;
+}
+
+               /* color-plate */
+
+           /* text-color */
+.orange{
+  color: #E95A08;
+}
+
+     /* button  */
+.primaryu-btn{
+  font-family: "inter" sans-serif ;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #E95A08;
+  border: none;
+  padding: 50px 26px;
+}
+
+
+/* shared-class */
+
+.container{
+  max-width: 1140px;
+  margin:0 auto;
+  padding: 0;
+}
+
+
+.header{
+  display: flex;
+  gap: 20px;
+  padding: 15px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  flex: 1;
+}
+
+.logo img{
+  max-width: 135px;
+  height: 82px;
+}
+
+.nav{
+  flex: 1;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap:15px;
+  justify-content:right;
+
+}
+.nav ul li{
+ 
+
+}
+
+.nav ul li a{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+
+}
+
+#active{
+  color: black;
+}
+
+/* hero-section */
+
+.hero-section {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 70px;
+  
+}
+
+.hero-content{
+  flex: 1;
+  align-items: end;
+  padding-top: 30px;
+}
+
+.hero-description{
+  margin-top: 15px;
+}
+.hero-img{
+  flex: 1;
+}
+
+
+@medi screen and (max-width:576px){
+
+
+}
+
+
+
+@media screen and (min-width:577Px) and (max-width:976px) {
+
+
+}
