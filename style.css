@@ -70,14 +70,15 @@ h5 {
 }
 
      /* button  */
-.primaryu-btn{
+.primary-btn{
   font-family: "inter" sans-serif ;
   font-size: 1rem;
   font-weight: 600;
   color: #ffffff;
   background-color: #E95A08;
   border: none;
-  padding: 50px 26px;
+  padding: 10px 26px;
+  width: 100%;
 }
 
 
@@ -157,7 +158,35 @@ ul {
 .hero-img{
   flex: 1;
 }
+/* main-section */
 
+main{
+  margin-top: 100px;
+}
+.card-section{
+  text-align: center;
+}
+
+.card-content {
+  width: 100%;
+  max-width: 70%;
+  margin: 0 auto;
+text-align: center;
+
+}
+.card-short-description{
+  margin: 20px 0;
+}
+
+.card{
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+
+}
+.card-name{
+  font-weight:500 ;
+}
 
 @medi screen and (max-width:576px){
 
