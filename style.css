@@ -79,6 +79,7 @@ h5 {
   border: none;
   padding: 10px 26px;
   width: 100%;
+  margin-top: 10px;
 }
 
 
@@ -111,19 +112,14 @@ h5 {
   flex: 1;
 }
 
-ul {
+.nav ul {
   list-style: none;
-  margin: 0;
-  padding: 0;
   display: flex;
   gap:15px;
   justify-content:right;
 
 }
-.nav ul li{
- 
 
-}
 
 .nav ul li a{
   text-decoration: none;
@@ -163,6 +159,9 @@ ul {
 main{
   margin-top: 100px;
 }
+
+/* card-section  */
+
 .card-section{
   text-align: center;
 }
@@ -188,14 +187,126 @@ text-align: center;
   font-weight:500 ;
 }
 
-@medi screen and (max-width:576px){
+/* plants-lover-section  */
+
+
+.plants-lover{
+  margin-top: 200px;
+  margin: o auto;
+  display: flex;
+  gap: 80px;
+}
+.plants-lover-img{
+  width: 100%;
+  position: relative;
+}
+
+.plants-lover-img img{
+  width: 100%;
+}
+
+.plants-lover-img .flower-store{
+  position: absolute;
+  
+}
+
+.plants-lover-img .trusted{
+width: 50%;
+  position: relative;
+  transform: translateY(-100px) translateX(380px);
+}
+
+
+.plants-lover-content{
+  width: 100%;
+  padding-top: 50px;
+}
+.plants-lover-content-title{
+  margin-bottom: 10px;
+}
+.plants-lover-content ul li{
+  margin-bottom: 10px;
+  
+}
+
+
+/* Mobile device */
+
+@media screen and (max-width: 576px) {
+  #large{
+    display: none;
+  }
+
+  .hero-section{
+    flex-direction: column-reverse;
+    padding: 10px;
+  }
+ .hero-content{
+  width: 100%;
+ }
+ .hero-img img{
+  width: 100%;
+  height: auto;
+ }
+
+ .card{
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+
+}
+.card-img img{
+  width: 100%;
+}
+.container{
+  width: 100%;
+}
+
+.plants-lover{
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.plants-lover-img{
+  width: 100%;
+
+}
+.plants-lover-img img{
+  width: 100%;
+  height: auto;
+}
+
+.plants-lover-img .flower-store{
+  position: static;
+  transform: none;
+}
+.trusted{
+display: none;
+}
+.plants-lover-content{
+  width: 100%;
+  padding: 0 15px;
+  text-align: left;
+}
+
+.plants-lover-content ul{
+  padding-left: 18px;
+}
 
 
 }
 
+@media screen and (min-width: 577px) {
+  #small{
+    display: none;
+  }
+  
 
+}
 
-@media screen and (min-width:577Px) and (max-width:976px) {
-
-
+@media screen and (min-width: 577px) and (max-width: px) {
+  
+/* pore kico add korbo */
 }
