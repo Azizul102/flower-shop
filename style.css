@@ -5,18 +5,17 @@
   box-sizing: border-box;
 }
 
-section + section {
+/* section + section {
   margin-top: 50px;
-}
+} */
 
 body {
   font-family: "Inter", sans-serif;
-  font-size: 1rem;
+  font-size: 1.375rem;
   font-weight: 400;
   font-style: normal;
   color: rgba(0, 0, 0, 0.5);
   background-color: #F5F8FF;
-  padding: 10px;
 }
 
         /* font-family */
@@ -83,6 +82,14 @@ h5 {
   margin-top: 10px;
 }
 
+.primary-btn:hover{
+  color:black;
+  background-color: white;
+  border:1px solid #E95A08;
+  border-radius: 10px;
+  
+
+}
 
 /* shared-class */
 
@@ -174,6 +181,7 @@ main{
 
 .card-section{
   text-align: center;
+  margin-top: 100px;
 }
 
 .card-content {
@@ -220,6 +228,8 @@ text-align: center;
 
 .plants-lover-img img{
   width: 100%;
+ 
+  
 }
 
 .plants-lover-img .flower-store{
@@ -242,7 +252,8 @@ width: 50%;
   margin-bottom: 10px;
 }
 .plants-lover-content ul li{
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+  padding-right: 20px;
   
 }
 
@@ -250,7 +261,7 @@ width: 50%;
 
 .deals{
   text-align: center;
-  margin-top: 300px;
+  margin-top: 200px;
 
 }
 
@@ -345,9 +356,93 @@ height: 190px;
   font-size: 1rem;
 }
 
+/* news-letter-section */
+.news-letter{
+  width: 100%;
+  height: 500px;
+  margin: 0 auto;
+  padding: 15px auto;
+  background-image: url(./assets/news-letter-bg.png);
+ text-align: center;
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ gap: 5px;
+}
+
+.news-letter h3{
+  color: white;
+  margin: 0 auto;
+}
+
+.news-letter-banner{
+  width:830px;
+  height: 50px;
+  padding: 20px;
+  gap: 0px;
+  display: flex;
+  margin: 0;
+}
+.news-letter-banner input{
+  width: 80%;
+  padding:20px;
+  border: none;
+}
+.news-btn{
+  width: 25%;
+  padding: 20px;
+  border: none;
+  background-color: #E95A08;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* footer-section  */
+
+.footer{
+  display: flex;
+  justify-content: center;
+  margin: 40px auto;
+  gap: 30px;
+}
+
+.footer p {
+  font-size: 1rem;
+}
+.footer div {
+  flex: 1;
+}
+.footer ul li{
+  margin-bottom: 15px;
+  font-size: 1rem;
+  font-weight: 400;
+  list-style: none;
+}
 
 
+  .footer ul li:hover {
+    color: black;
+  }
 
+  .footer ul li:focus:hover {
+    color: white;
+  }
+
+  .icon{
+    display: flex;
+    gap: 20px;
+    width: 25%;
+    justify-content: center;
+  }
+  .icon img{
+    width: 50%;
+  }
 /* Mobile device */
 
 @media screen and (max-width: 576px) {
@@ -435,15 +530,33 @@ display: none;
 .deals{
   margin-top: 50px;
 }
-/* lATES DEALS  */
 
+.news-letter{
+  height: 393px;
+}
+
+.news-letter-banner{
+  width:321px;
+  height: 50px;
+  padding: 20px;
+  gap: 0px;
+  display: flex;
+  margin: 0;
+}
+.news-btn{
+  width:30% ;
+}
+.news-letter h3{
+  font-size: 1.3rem;
+}
+
+}
 
 @media screen and (min-width: 577px) {
   #small{
     display: none;
   }
   
-
 }
 
 /* @media screen and (min-width: 577px) and (max-width: px)  */
