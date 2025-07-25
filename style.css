@@ -394,6 +394,11 @@ height: 190px;
   justify-content: center;
 }
 
+.news-btn:hover{
+color:black;
+  background-color:white;
+}
+
 /* footer-section  */
 
 .footer{
